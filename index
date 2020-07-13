@@ -1,0 +1,219 @@
+ato de Robótica - CEET Vasco Coutinho</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arial-Black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="img/arduino.png" />
+  </head>
+
+  <body id="page-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Campeonato de Robótica</a>
+        
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu
+        <i class="fas fa-bars"></i>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+          	 <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="formulario.html">Cadastre-se</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Informações</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            </li>
+          </ul>
+        
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Robótica</h1>
+          <h2 class="text-light mx-auto mt-2 mb-5">Seja bem vindo ao campeonato de robótica da escola CEET Vasco Coutinho</h2>
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+
+
+    <!-- Sobre Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">Campeonato</h2>
+            <p class="text-light">No dia 4 de Dezembro de 2018 será realizado o primeiro campeonato de Róbotica
+            de 08:00 da manhã às 18:00 da tarde, podendo ser estendido o horário. O campeonato terá competição, entre carros que foram feitos com arduino e
+          materiais recicláveis.</p>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/Regras.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Regras</h4>
+              <p class="text-black-60 mb-0">O Robô deverá seguir o trajeto da pista, sem sair da linha. Para saber mais sobre às regras clique no carro abaixo.</p>
+               <a download="RegrasDoCampeonato.pdf" href="edital\RegrasDoCampeonato.pdf"><i class="fa fa-car"></a></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/carrinhoy.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-info text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Carro</h4>
+                  <p class="mb-0 text-light">O funcionamento do carro acontece pela comunicação entre a placa arduino e os motores, funções 
+                  como essas e outras, são programadas diretamente no arduino.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/Placa.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-dark text-center h-100 project">
+              <div class="d-flex h-100">
+
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+
+                  <h4 class="text-white">Arduino</h4>
+                  
+                  <p class="mb-0 text-light">Arduíno é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido.</p>
+
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Signup Section -->
+ 
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section bg-dark">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Endereço</h4>
+                <hr class="my-4">
+                <div class="small text-black-60">Avenida Luciano das Neves, s/n - Centro - Vila Velha - ES</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-60">champsceet@gmail.com</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Telefone</h4>
+                <hr class="my-4">
+                <div class="small text-black-60">(27) 3229-9309</div>
+              </div>
+            </div>
+          </div>
+        </div>        
+        
+        <div class="social d-flex justify-content-center">
+          
+          <a href="https://twitter.com/ceetvasco" class="mx-3">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://pt-br.facebook.com/CEET-Vasco-Coutinho-1497096450553978/" class="mb-3">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/ceetvasco/" class="mx-3">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary Uppercased text-left text-light">
+      <div class="container">
+        Copyright &copy; CEET Vasco Coutinho 2018 By Carol - 27 99924-6792 - Vinicius 27 98884-5266 - do Curso Redes de Computadores Vespertino Módulo 1 
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
+</html>
